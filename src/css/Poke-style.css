@@ -1,0 +1,119 @@
+.btn-func {
+    background: #E09F3E;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-func:hover {
+    background: #D38C22;
+}
+
+.btn-div {
+    margin-left: 1em;
+    padding-bottom: 1em;
+}
+
+.poke-content {
+    text-align: center;
+    background-color: #FFF3B0;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.poke-name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1 0 20%;
+    padding: 0 1em;
+}
+
+.poke-card {
+    border-radius: 4px;
+    border: 1px solid #335C67;
+    cursor: pointer;
+    width: 100%;
+    max-width: 10em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .col {
+        flex: 1 0 100%;
+        padding: 0;
+    }
+}
+
+.align {
+    padding-top: 1em;
+}
+
+.btn {
+    background-color: #e09f3e;
+    border-color: #d89f3e;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    width: 8em;
+}
+
+.btn:hover {
+    color: #FFF3B0;
+    background-color: #9E2A2B;
+}
+
+.space {
+    margin-right: 2em;
+}
+
+.attribute-list {
+    text-align: left;
+}
+
+.attribute-name {
+    font-weight: bold;
+}
+
+.poke-image {
+    min-width: 12em;
+    max-width: 20em;
+    height: auto;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFEA75;
+}
+
+th {
+    border:none;
+    text-align: left;
+    padding-right: 11em;
+}
+
+td {
+    border:none;
+    text-align: right;
+    padding-left: 11em;
+}
+
+.stat-style {
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.stat-view {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5em;
+}

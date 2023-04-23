@@ -1,0 +1,12 @@
+.mainContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
+    background-color: #FFF8CE;
+    height: 100em;
+}
+
+.aboutContainer {
+    padding: 2em;
+    padding-top: 0.1em;
+}

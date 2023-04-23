@@ -1,0 +1,65 @@
+body {
+    font-family: BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    max-height: 40%;
+    background-color: #FFF3B0 !important;
+    padding-left: 0em;
+    margin-left: 0em;
+    padding-right: 0em;
+    margin-right: 0em;
+}
+
+h1 {
+    color: #540B0E;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #E09F3E;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #E09F3E;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: 0em;
+    margin-left: 0em;
+    margin-top: 3%;
+}
+
+
+.navBarElement {
+    margin-right: 2%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #540B0E;
+}
+
+.navBarElement:first-of-type {
+    margin-left: 8%;
+}
+
+
+a {
+    color: #540B0E;
+    background-color: #FFF3B0;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+a:hover {
+    color:#FFF3B0;
+    background-color: #9E2A2B;
+    border: none;
+}
+
+.mainContainer {
+    height: auto;
+    border-radius: 1em;
+}
