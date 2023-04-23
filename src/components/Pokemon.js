@@ -66,7 +66,7 @@ const Pokemon = ({ pokemon, loading }) => {
                         <p class="stat-style">Stats</p>
                         <p>
                             <i>following commented code works only once when written / #tobeimplemented</i>
-                            {/* <table class="stat-view">
+                            { <table class="stat-view">
                                 <tr>
                                     <th>HP</th>
                                     <td>{pokeStats[0].base_stat}</td>
@@ -91,7 +91,7 @@ const Pokemon = ({ pokemon, loading }) => {
                                     <th>SPEED</th>
                                     <td>{pokeStats[5].base_stat}</td>
                                 </tr>
-                            </table> */}
+                            </table> }
                         </p>
                     </div>
                 </div>
