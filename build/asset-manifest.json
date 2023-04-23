@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Pokedex_Asignment_WEB/static/css/main.b78d2961.css",
-    "main.js": "/Pokedex_Asignment_WEB/static/js/main.aa4c78e9.js",
+    "main.js": "/Pokedex_Asignment_WEB/static/js/main.7c7e5e36.js",
     "index.html": "/Pokedex_Asignment_WEB/index.html",
     "main.b78d2961.css.map": "/Pokedex_Asignment_WEB/static/css/main.b78d2961.css.map",
-    "main.aa4c78e9.js.map": "/Pokedex_Asignment_WEB/static/js/main.aa4c78e9.js.map"
+    "main.7c7e5e36.js.map": "/Pokedex_Asignment_WEB/static/js/main.7c7e5e36.js.map"
   },
   "entrypoints": [
     "static/css/main.b78d2961.css",
-    "static/js/main.aa4c78e9.js"
+    "static/js/main.7c7e5e36.js"
   ]
 }
