@@ -63,35 +63,37 @@ const Pokemon = ({ pokemon, loading }) => {
                         <p><span class="attribute-name">Height:</span> {pokeHeight}</p>
                         <p><span class="attribute-name">Weight:</span> {pokeWeight}</p>
                         <p><span class="attribute-name">Abilities:</span> {pokeAbilities.map(ability => ability.ability.name).join(", ")}</p>
-                        <p class="stat-style">Stats</p>
                         <p>
                             {pokeStats.length > 0 ? (
-                                <table class="stat-view">
-                                    <tr>
-                                        <th>HP</th>
-                                        <td>{pokeStats[0].base_stat}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>ATTACK</th>
-                                        <td>{pokeStats[1].base_stat}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>DEFENCE</th>
-                                        <td>{pokeStats[2].base_stat}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>SPECIAL-ATTACK</th>
-                                        <td>{pokeStats[3].base_stat}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>SPECIAL-DEFENCE</th>
-                                        <td>{pokeStats[4].base_stat}</td>
-                                    </tr>
-                                    <tr>
-                                        <th>SPEED</th>
-                                        <td>{pokeStats[5].base_stat}</td>
-                                    </tr>
-                                </table>
+                                <span class="table-container">
+                                    <table class="stat-view">
+                                    <p class="stat-style">Stats:</p>
+                                        <tr>
+                                            <th>HP</th>
+                                            <td>{pokeStats[0].base_stat}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>ATTACK</th>
+                                            <td>{pokeStats[1].base_stat}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>DEFENCE</th>
+                                            <td>{pokeStats[2].base_stat}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SPECIAL-ATTACK</th>
+                                            <td>{pokeStats[3].base_stat}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SPECIAL-DEFENCE</th>
+                                            <td>{pokeStats[4].base_stat}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>SPEED</th>
+                                            <td>{pokeStats[5].base_stat}</td>
+                                        </tr>
+                                    </table>
+                                </span>
                             ) : (
                                 <p>No stats available.</p>
                             )}

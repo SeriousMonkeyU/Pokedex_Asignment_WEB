@@ -107,19 +107,28 @@ td {
 }
 
 .stat-style {
-    text-align: center;
     font-weight: bold;
     padding: 2px;
+    text-align: left;
+    margin: 0;
+    border-radius: 5em;
 }
 
 .stat-view {
     border-collapse: collapse;
     text-align: center;
     padding: 0.5em;
+    margin: 0 auto;
 }
 
 button:disabled {
     background-color: #e4e4e4 !important;
     color: #7b7b7b !important;
     cursor: not-allowed;
+}
+
+.table-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
