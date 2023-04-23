@@ -95,13 +95,13 @@ tr:nth-child(odd) {
 }
 
 th {
-    border:none;
+    border: none;
     text-align: left;
     padding-right: 11em;
 }
 
 td {
-    border:none;
+    border: none;
     text-align: right;
     padding-left: 11em;
 }
@@ -116,4 +116,10 @@ td {
     border-collapse: collapse;
     text-align: center;
     padding: 0.5em;
+}
+
+button:disabled {
+    background-color: #e4e4e4 !important;
+    color: #7b7b7b !important;
+    cursor: not-allowed;
 }

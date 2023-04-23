@@ -38,7 +38,7 @@ const PokemonZoo = () => {
         return data;
       })
     );
-  
+
     setPokeData((prevState) => {
       const newState = [...prevState, ...pokemonList];
       newState.sort((a, b) => (a.id > b.id ? 1 : -1));
@@ -48,8 +48,8 @@ const PokemonZoo = () => {
       return filteredState;
     });
   };
-  
-  
+
+
 
   useEffect(() => {
     pokeFunc();
@@ -59,18 +59,30 @@ const PokemonZoo = () => {
     <>
       <div>
         <Pokemon pokemon={pokeData} loading={loading}></Pokemon>
+
         <div className="btn-div">
-          <button
-            type="button"
-            disabled={disable}
-            className="btn btn-func space"
-            onClick={() => {
-              setPokeData([]);
-              setUrl(prevUrl);
-            }}
-          >
-            Previous
-          </button>
+          {prevUrl ?
+            (
+              <button
+                type="button"
+                disabled={disable}
+                className="btn btn-func space"
+                onClick={() => {
+                  setPokeData([]);
+                  setUrl(prevUrl);
+                }}
+              >
+                Previous
+              </button>
+            ) : (
+              <button
+                type="button"
+                disabled={disable}
+                className="btn btn-func space"
+              >
+                Previous
+              </button>
+            )}
 
           <button
             type="button"
