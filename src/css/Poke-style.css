@@ -132,3 +132,7 @@ button:disabled {
     justify-content: flex-start;
     align-items: center;
 }
+
+table.stat-view {
+    width: 100%;
+}
