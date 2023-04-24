@@ -112,11 +112,12 @@ const Pokemon = ({ pokemon, loading }) => {
                         })
                         .map((item) => {
                             return (
-                                <div class="col" key={item.id}>
+                                <div key={item.id}>
                                     <div class="poke-card" onClick={() => openPokeInfo(item)}>
                                         <img
                                             src={item.sprites.front_default}
                                             alt="Poke-card image"
+                                            class="poke-card-image"
                                         />
                                         <div>
                                             <h5 class="poke-name">{item.name}</h5>

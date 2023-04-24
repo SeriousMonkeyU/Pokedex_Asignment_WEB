@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, } from "react";
 import Pokemon from "./Pokemon";
 import '../css/Poke-style.css'
 
@@ -13,7 +13,7 @@ const PokemonZoo = () => {
   const pokeFunc = async () => {
     const res = await fetch(url);
     const data = await res.json();
-    const limit = 20;
+    const limit = 15;
 
     setNextUrl(data.next);
     setPrevUrl(data.previous);
@@ -53,11 +53,11 @@ const PokemonZoo = () => {
 
   useEffect(() => {
     pokeFunc();
-  }, [url]);
+  }, [url, pokeFunc]);
 
   return (
     <>
-      <div>
+      <div class="poke-container">
         <Pokemon pokemon={pokeData} loading={loading}></Pokemon>
 
         <div className="btn-div">

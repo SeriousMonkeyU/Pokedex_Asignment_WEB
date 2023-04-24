@@ -5,9 +5,9 @@ import PokemonZoo from '../components/PokemonZoo';
 export const Home = () => {
   return (
     <>
-    <div class="mainContainer">
-        <PokemonZoo/>
-    </div>
+      <div class="mainContainer">
+        <PokemonZoo />
+      </div>
     </>
   )
 };
